@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tudo que sei</title>
+
+    <style>
+        body{
+            background-color: aquamarine;
+            font: normal 30pt Arial
+
+        }
+
+    </style>
+
+
+</head>
+<body>
+
+    <script>
+
+        alert("Oi, bem vindo ao site")
+        confirm("Você está pronto?")
+        var nome = prompt("Qual seu nome?")
+        document.write(`Seu nome possui <strong> ${nome.length} </strong> letras  <br/>`)
+        document.write(`Seu nome escrito em letras maiuscúlas é <strong> ${nome.toUpperCase()} </strong> <br/>`)
+        document.write(`Seu nome escrito em letras minuscúlas é <strong> ${nome.toLowerCase()} </strong> <br/>`)
+
+        var n1 = Number.parseFloat(prompt("Diga um número: "))
+        var n2 = Number.parseFloat(prompt("Diga um número: "))
+        s = n1 + n2
+        document.write(`A soma de ${n1} e ${n2} é igual a ${s}  <br/>`)
+
+        document.write("<br/>")
+
+        document.write(`Meu número é ${n1} <br/>`)
+
+        document.write(`Ele escrito com mais casas decimais é ${n1.toFixed(4).replace(".",",")} <br/>`)
+        document.write(`Ele escrito com mais casas decimais é ${n1.toFixed(3).replace(".",",")} <br/>`)
+        document.write(`Ele escrito com mais casas decimais é ${n1.toFixed(2).replace(".",",")} <br/>`)
+        document.write(`Ele escrito com mais casas decimais é ${n1.toFixed(1).replace(".",",")} <br/>`)
+
+        document.write("<br/>")
+
+        document.write(`Agora passar para <strong> REAL(R$) </strong> é ${n1.toLocaleString("pt-BR",{style:"currency",currency:"BRL"})} <br/>`)
+        document.write(`Agora passar para <strong> DÓLAR(USD) </strong> é ${n1.toLocaleString("pt-BR",{style:"currency",currency:"USD"})} <br/>`)
+        document.write(`Agora passar para <strong> EURO(EOR) </strong> é ${n1.toLocaleString("pt-BR",{style:"currency",currency:"EOR"})} <br/>`)
+
+    </script>
+
+</body>
+</html>
