@@ -6,6 +6,7 @@ Repositório criado para organizar os arquivos e exercícios relacionados ao cur
 ## Links Úteis
 
 * [Curso em Vídeo](https://www.cursoemvideo.com/)
+* <a href="https://www.cursoemvideo.com/" target="_blank">Curso em Vídeo</a>
 * [Playlist do Curso](https://www.youtube.com/watch?v=1-w1RfGIov4&list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1)
 * Professor: [Gustavo Guanabara](https://github.com/gustavoguanabara) 🖖🏻
 * [Repositório do Curso](https://github.com/gustavoguanabara/javascript)
