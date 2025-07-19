@@ -2,6 +2,13 @@
 
 Repositório criado para organizar os arquivos e exercícios relacionados ao curso.
 
+## Desafios
+
+* Desaifo 1 - AAA - [d001]()
+* Desaifo 2 - AAA - [d002]()
+* Desaifo 3 - AAA - [d003]()
+* Desaifo 4 - AAA - [d004]()
+
 ## Exercícios
 
 * Exercício 1 - Olá, Mundo! - [ex001](https://github.com/KaiqueTeixeira/Aprendendo-JS/blob/main/Exerc%C3%ADcios/ex001/index.html)
