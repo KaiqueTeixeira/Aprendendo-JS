@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D003 - Super Contadora</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <h1>Vamos contar</h1>
+    </header>
+
+    <section id="secao">
+        <div id="dados">
+            <p id="ipt">Início: <input type="number" name="inicio" id="txtini" class="lugar"></p>
+            <p id="ipt">Fim: <input type="number" name="fim" id="txtfim" class="lugar"></p>
+            <p id="ipt">Passo: <input type="number" name="passo" id="txtpass" class="lugar"></p>
+        </div>
+
+        <div id="dbutao">
+            <input type="button" value="Contar" class="butao" id="contar" onclick="contar()">
+            <input type="button" value="Limpar" class="butao" id="limpar" onclick="limpar()">
+        </div>
+
+        <div id="dres">
+            <p id="cont">Informe os números </p>
+            <p id="res"></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; Kteixeira</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>

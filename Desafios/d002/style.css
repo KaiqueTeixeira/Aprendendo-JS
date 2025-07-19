@@ -1,0 +1,130 @@
+@charset "UTF-8";
+
+:root{
+    --cor0: #422D6B;
+    --cor1: #573C8C;
+    --cor2: #6D4CB0;
+    --cor3: #815BD4;
+    --cor4: #9C6EFF;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(to right, var(--cor0), var(--cor2), var(--cor3));
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: white;
+}
+
+header > h1 {
+    font-size: 3em;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.658);
+
+    text-align: center;
+}
+
+section {
+    background-color: white;
+    width: 600px;
+    color: black;
+    margin: auto;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.562);
+
+    text-align: center;
+    font-weight: bold;
+}
+
+#txtano {
+    height: 30px;
+    width: 200px;
+    font-size: 18px;
+    border-radius: 15px;
+    border: none;   
+    outline: none;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.836);
+
+    margin-bottom: 20px;
+}
+
+#txtano:focus {
+    border-color: #01438a; /* Azul mais escuro ao clicar */
+    box-shadow: 0px 0px 8px rgba(0, 123, 255, 0.9); /* Efeito de brilho */
+}
+
+#txtano::placeholder {
+    color: rgba(0, 0, 0, 0.5); /* Cor preta com 30% de opacidade */
+    font-style: italic; /* Deixa o texto mais elegante */
+}
+
+input[type="number"] {
+padding-left: 10px;  /* aumenta o espaço à esquerda */
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+-webkit-appearance: none;
+margin: 0;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+    padding: 10px;
+    font-size: 14px;
+    opacity: 0.7; /*MEXEU NA TAG NA PARTE DE BAIXO*/
+}
+
+img {
+    max-width: 500px;
+    height: 200;
+    border-radius: 20px; /*ARRUMOU O TAMANHO DA FOTO E AS BORDAS DELA*/
+}
+
+#botao {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    height: 50px;
+    width: 200px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.3s; /*ESTILIZIOU O BOTAO*/
+
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+}
+
+#botao:hover {
+    background-color: #01438a; /*MUDA QUANDO PASSA EM CIMA*/
+}
+
+p#botao-container {
+    display: flex;
+    justify-content: center; /*CENTRALIZOU O BOTAO*/
+}
+
+div#res {
+    display: flex;
+    justify-content: center; /*COLOCOU O TEXTO NO MEIO*/
+}
+
+#foto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f8f9fa;
+    margin-bottom: 10px;/*DEIXOU A IMAGEM CERTINHA NO MEIO COM AS MARGENS DEFINIDAS*/
+}

@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+/* PÁGINA COMO UM TODO */
+
+:root{
+    --cor0: #422D6B;
+    --cor1: #573C8C;
+    --cor2: #6D4CB0;
+    --cor3: #815BD4;
+    --cor4: #9C6EFF;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(to right, var(--cor0), var(--cor2), var(--cor3));
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: white;
+}
+
+/* MEXER NO TITULO */
+
+header > h1 {
+    margin-top: 40px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 3em;
+    text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.658);
+}
+
+/* QUADRADO BRANCO */
+
+section {
+    background-color: white;
+    width: 550px;
+    height: 550px;
+    color: black;
+    font-size: 20px;
+    border-radius: 20px;
+    box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.562);
+    margin: auto;
+}    
+
+/* MEXE NOS LUGAR ONDE COLOCA NUMERO */
+
+.lugar {
+    height: 30px;
+    width: 200px;
+    font-size: 18px;
+    border-radius: 15px;
+    border: none;   
+    outline: none;
+    box-shadow: 1px 1px 8px rgb(0, 0, 0);
+    
+    margin-bottom: 15px;
+}
+
+#txtini {
+    margin-top: 30px;
+}
+
+#dados {
+    margin-left: 120px;
+    font-weight: bold;
+}
+
+input[type="number"] {
+    padding-left: 10px;  /* aumenta o espaço à esquerda */
+}
+
+/* BOTAO DE CONTAR */
+
+#dbutao {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.butao {
+    width: 200px;
+    height: 40px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    background: rgb(38, 147, 190);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.butao:hover {
+    background: rgb(64, 64, 175);
+}
+
+/* MARGEM ENTRE OS BOTOES */
+
+#contar {
+    margin-right: 12px;
+}
+
+#limpar {
+    margin-left: 12px;
+}
+
+/* LUGAR ONDE SAI A RESPOTA */
+
+#dres {
+    font-size: 20px;
+}
+
+#res {
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#cont {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* PARTE DE BAIXO */
+
+footer {
+    color: white;
+    padding: 5px;
+    text-align: center;
+    font-style: italic;
+    font-size: 17px;
+    opacity: 0.7;
+}

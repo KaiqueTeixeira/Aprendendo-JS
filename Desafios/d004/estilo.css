@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+:root{
+    --cor0: #422D6B;
+    --cor1: #573C8C;
+    --cor2: #6D4CB0;
+    --cor3: #815BD4;
+    --cor4: #9C6EFF;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(to right, var(--cor0), var(--cor2), var(--cor3));
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: white;
+}
+
+/* MEXER NO TITULO */
+
+header > h1{
+    font-size: 3em;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.658);
+
+    text-align: center;
+}
+
+/* QUADRADO BRANCO */
+
+section {
+    background-color: white;
+    width: 550px;
+    height: 550px;
+    color: black;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.562);
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px; 
+}    
+
+/* LUGAR DE COLOCAR O NÚMERO */
+
+#ptxt{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+#txtn {
+    height: 30px;
+    width: 200px;
+    font-size: 18px;
+    border-radius: 15px;
+    border: none;   
+    outline: none;
+    box-shadow: 2px 1px 6px rgba(0, 0, 0, 0.925);
+}
+
+input[type="number"] {
+    padding-left: 10px;  /* aumenta o espaço à esquerda */
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* LUGAR DO RESULTADO */
+
+#seltab {
+    display: flex;
+    margin: auto;
+    font-size: 22px;
+    width: 300px;
+    height: 280px;
+
+    background: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    overflow-y: auto;
+}
+
+#seltab:hover {
+    border-color: rgb(38, 147, 190);
+    box-shadow: 3px 3px 15px rgba(38, 147, 190, 0.5);
+}
+
+/* BOTA DE GERAR */
+
+#dbutao {
+    text-align: center;
+
+    text-align: center;
+    margin-top: auto; /* Garante que o botão fique empurrado para baixo */
+    padding-bottom: 20px;
+}
+
+#butao {
+    width: 200px;
+    height: 50px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    background: rgb(38, 147, 190);
+    border-radius: 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#butao:hover {
+    background: rgb(64, 64, 175);
+}
+
+/* PARTE DE BAIXO */
+
+footer {
+    color: white;
+    padding: 5px;
+    text-align: center;
+    font-style: italic;
+    font-size: 17px;
+    opacity: 0.7;
+}

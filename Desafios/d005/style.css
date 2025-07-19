@@ -1,0 +1,140 @@
+/* PÁGINA COMO UM TODO */
+
+body {
+    background: rgb(17, 31, 78);
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: white;
+    overflow: none;
+}
+
+/* MEXER NO TITULO */
+
+.titulo {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+/* QUADRADO BRANCO */
+
+section {
+    background-color: white;
+    width: 600px;
+    height: auto;
+    color: black;
+    font-size: 25px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px black;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px; 
+}    
+
+/* LUGAR DE COLOCAR O NÚMERO */
+
+#ptxt{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#fnum {
+    border-color: black;
+    border-radius: 10px;
+    width: 100px;
+    height: 20px;
+    font-size: 20px;
+}
+
+/* Botão de adiconar */
+
+#btadicionar {
+    width: 100px;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    background: rgb(38, 147, 190);
+    border-radius: 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+    margin-left: 30px;
+}
+
+#btadicionar:hover {
+    background: rgb(64, 64, 175);
+}
+
+/* LUGAR DO RESULTADO */
+
+#seltab {
+    display: flex;
+    margin: 0px auto;
+    font-size: 22px;
+    width: 250px;
+    height: 200px;
+
+    background: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    overflow-y: auto;
+}
+
+#seltab:hover {
+    border-color: rgb(38, 147, 190);
+    box-shadow: 3px 3px 15px rgba(38, 147, 190, 0.5);
+}
+
+/* LUGAR DE ESCRITA */
+
+#res {
+    font-size: 22px;
+}
+
+
+
+/* BOTA DE FINALIZAR */
+
+#dbutao {
+    text-align: center;
+
+    text-align: center;
+    margin-top: auto; /* Garante que o botão fique empurrado para baixo */
+    padding-bottom: 20px;
+}
+
+#butao {
+    width: 200px;
+    height: 50px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    background: rgb(38, 147, 190);
+    border-radius: 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.butao:hover {
+    background: rgb(64, 64, 175);
+}
+
+/* PARTE DE BAIXO */
+
+footer {
+    color: white;
+    padding: 5px;
+    text-align: center;
+    font-style: italic;
+    font-size: 17px;
+    opacity: 0.7;
+}
