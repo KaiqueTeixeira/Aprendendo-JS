@@ -6,9 +6,35 @@
     <title>Ex010 - DETRAN</title>
     
     <style>
-        body{
-            background: beige;
-            font: normal 20px Arial;
+
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: rgb(75, 69, 134);
+            color: black;
+            font-family: Helvetica, sans-serif;
+            font-size: 25px;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            height: 100vh;
+            text-align: center;
+        }
+
+        h1 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 50pt;
+            color: rgb(143, 203, 255);
+
+            margin: 100px;
         }
 
         input#button{
@@ -29,9 +55,11 @@
 <body>
     
     <h1>Sistema de Multas</h1>
-    Velocidade do carro: <input type="number" name="txtvel" id="txtvel">Km/h
-    <input type="button" value="Verificar" id="button" onclick="calcular()">
-    <div id="res">
+    <div>
+        Velocidade do carro: <input type="number" name="txtvel" id="txtvel">Km/h
+        <input type="button" value="Verificar" id="button" onclick="calcular()">
+        <div id="res">
+    </div>
 
     </div>
 
