@@ -1,4 +1,4 @@
-# Curso em Vídeo - JavaScript
+# Curso em Vídeo - JavaScript <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" height="30"  alt="JavaScript logo" />
 
 Repositório criado para organizar os arquivos e exercícios relacionados ao curso.
 
