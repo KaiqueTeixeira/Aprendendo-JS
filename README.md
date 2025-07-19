@@ -4,24 +4,24 @@ Repositório criado para organizar os arquivos e exercícios relacionados ao cur
 
 ## Desafios
 
-* Desafio 1 - [Hora do Dia](https://github.com/KaiqueTeixeira/Aprendendo-JS/blob/main/Desafios/d001/index.html)
-* Desafio 2 - [Verificador de Idade](https://github.com/KaiqueTeixeira/Aprendendo-JS/blob/main/Desafios/d002/index.html)
-* Desafio 3 - [Contador de Passos](https://github.com/KaiqueTeixeira/Aprendendo-JS/blob/main/Desafios/d003/index.html)
-* Desafio 4 - [Gerador de Tabuada](https://github.com/KaiqueTeixeira/Aprendendo-JS/blob/main/Desafios/d004/index.html)
-* Desafio 5 - [Análise de Números](https://github.com/KaiqueTeixeira/Aprendendo-JS/blob/main/Desafios/d005/index.html)
+* Desafio 1 - [Hora do Dia](https://kaiqueteixeira.github.io/Aprendendo-JS/Desafios/d001/index.html)
+* Desafio 2 - [Verificador de Idade](https://kaiqueteixeira.github.io/Aprendendo-JS/Desafios/d002/index.html)
+* Desafio 3 - [Contador de Passos](https://kaiqueteixeira.github.io/Aprendendo-JS/Desafios/d003/index.html)
+* Desafio 4 - [Gerador de Tabuada](https://kaiqueteixeira.github.io/Aprendendo-JS/Desafios/d004/index.html)
+* Desafio 5 - [Análise de Números](https://kaiqueteixeira.github.io/Aprendendo-JS/Desafios/d005/index.html)
 
 ## Exercícios
 
-* Exercício 1 - Olá, Mundo! - [ex001](https://github.com/KaiqueTeixeira/Aprendendo-JS/blob/main/Exerc%C3%ADcios/ex001/index.html)
-* Exercício 2 - Prompt e Alert - [ex002](https://github.com/KaiqueTeixeira/Aprendendo-JS/blob/main/Exerc%C3%ADcios/ex002/index.html)
-* Exercício 3 - Somando dois números - [ex003](https://github.com/KaiqueTeixeira/Aprendendo-JS/blob/main/Exerc%C3%ADcios/ex003/index.html)
-* Exercício 4 - Manipulando texto - [ex004](https://github.com/KaiqueTeixeira/Aprendendo-JS/blob/main/Exerc%C3%ADcios/ex004/index.html)
-* Exercício 5 - Buscando elementos - [ex005](https://github.com/KaiqueTeixeira/Aprendendo-JS/blob/main/Exerc%C3%ADcios/ex005/index.html)
-* Exercício 6 - Eventos DOM - [ex006](https://github.com/KaiqueTeixeira/Aprendendo-JS/blob/main/Exerc%C3%ADcios/ex006/index.html)
-* Exercício 7 - Somando números - [ex007](https://github.com/KaiqueTeixeira/Aprendendo-JS/blob/main/Exerc%C3%ADcios/ex007/index.html)
+* Exercício 1 - Olá, Mundo! - [ex001](https://kaiqueteixeira.github.io/Aprendendo-JS/Exerc%C3%ADcios/ex001/index.html)
+* Exercício 2 - Prompt e Alert - [ex002](https://kaiqueteixeira.github.io/Aprendendo-JS/Exerc%C3%ADcios/ex002/index.html)
+* Exercício 3 - Somando dois números - [ex003](https://kaiqueteixeira.github.io/Aprendendo-JS/Exerc%C3%ADcios/ex003/index.html)
+* Exercício 4 - Manipulando texto - [ex004](https://kaiqueteixeira.github.io/Aprendendo-JS/Exerc%C3%ADcios/ex004/index.html)
+* Exercício 5 - Buscando elementos - [ex005](https://kaiqueteixeira.github.io/Aprendendo-JS/Exerc%C3%ADcios/ex005/index.html)
+* Exercício 6 - Eventos DOM - [ex006](https://kaiqueteixeira.github.io/Aprendendo-JS/Exerc%C3%ADcios/ex006/index.html)
+* Exercício 7 - Somando números - [ex007](https://kaiqueteixeira.github.io/Aprendendo-JS/Exerc%C3%ADcios/ex007/index.html)
 * Exercício 8 - Condições Simples - [ex008](https://github.com/KaiqueTeixeira/Aprendendo-JS/blob/main/Exerc%C3%ADcios/ex008/script.js)
 * Exercício 9 - Olá - [ex009](https://github.com/KaiqueTeixeira/Aprendendo-JS/blob/main/Exerc%C3%ADcios/ex009/script.js)
-* Exercício 10 - Detran - [ex0010](https://github.com/KaiqueTeixeira/Aprendendo-JS/blob/main/Exerc%C3%ADcios/ex010/index.html)
+* Exercício 10 - Detran - [ex0010](https://kaiqueteixeira.github.io/Aprendendo-JS/Exerc%C3%ADcios/ex010/index.html)
 * Exercício 11 - Olá - [ex0011](https://github.com/KaiqueTeixeira/Aprendendo-JS/blob/main/Exerc%C3%ADcios/ex011/script.js)
 * Exercício 12 - Olá - [ex0012](https://github.com/KaiqueTeixeira/Aprendendo-JS/blob/main/Exerc%C3%ADcios/ex012/script.js)
 * Exercício 13 - Olá - [ex0013](https://github.com/KaiqueTeixeira/Aprendendo-JS/blob/main/Exerc%C3%ADcios/ex013/script.js)
