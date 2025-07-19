@@ -4,10 +4,11 @@ Repositório criado para organizar os arquivos e exercícios relacionados ao cur
 
 ## Desafios
 
-* Desaifo 1 - AAA - [d001]()
-* Desaifo 2 - AAA - [d002]()
-* Desaifo 3 - AAA - [d003]()
-* Desaifo 4 - AAA - [d004]()
+* Desafio 1 - [Hora do Dia](https://github.com/KaiqueTeixeira/Aprendendo-JS/blob/main/Desafios/d001/index.html)
+* Desafio 2 - [Verificador de Idade](https://github.com/KaiqueTeixeira/Aprendendo-JS/blob/main/Desafios/d002/index.html)
+* Desafio 3 - [Contador de Passos](https://github.com/KaiqueTeixeira/Aprendendo-JS/blob/main/Desafios/d003/index.html)
+* Desafio 4 - [Gerador de Tabuada](https://github.com/KaiqueTeixeira/Aprendendo-JS/blob/main/Desafios/d004/index.html)
+* Desafio 5 - [Análise de Números](https://github.com/KaiqueTeixeira/Aprendendo-JS/blob/main/Desafios/d005/index.html)
 
 ## Exercícios
 
