@@ -2,7 +2,7 @@
 
 Repositório criado para organizar os arquivos e exercícios relacionados ao curso.
 
-## Projetos durante o curso 🚀
+## 🚀 Projetos durante o curso 
 
 * Projeto 1 - [Hora do Dia](https://kaiqueteixeira.github.io/Aprendendo-JS/Desafios/d001/index.html)
 * Projeto 2 - [Verificador de Idade](https://kaiqueteixeira.github.io/Aprendendo-JS/Desafios/d002/index.html)
@@ -10,11 +10,11 @@ Repositório criado para organizar os arquivos e exercícios relacionados ao cur
 * Projeto 4 - [Gerador de Tabuada](https://kaiqueteixeira.github.io/Aprendendo-JS/Desafios/d004/index.html)
 * Projeto 5 - [Análise de Números](https://kaiqueteixeira.github.io/Aprendendo-JS/Desafios/d005/index.html)
 
-## Desafios 🎯
+## 🎯 Desafios 
 
 * 
 
-## Exercícios 📘
+## 📚 Exercícios
 
 * Exercício 1 - [Olá, Mundo!](https://kaiqueteixeira.github.io/Aprendendo-JS/Exerc%C3%ADcios/ex001/index.html)
 * Exercício 2 - [Prompt e Alert](https://kaiqueteixeira.github.io/Aprendendo-JS/Exerc%C3%ADcios/ex002/index.html)
@@ -41,7 +41,7 @@ Repositório criado para organizar os arquivos e exercícios relacionados ao cur
 * Exercício 23 - [Fatorial](https://github.com/KaiqueTeixeira/Aprendendo-JS/blob/main/Exerc%C3%ADcios/ex023/script.js)
 * Exercício 24 - [Fatorial com Recursividade](https://github.com/KaiqueTeixeira/Aprendendo-JS/blob/main/Exerc%C3%ADcios/ex024/script.js)
 
-## Links Úteis 🔗
+## 🔗 Links Úteis 
 
 * [Curso em Vídeo](https://www.cursoemvideo.com/)
 * [Playlist do Curso](https://www.youtube.com/watch?v=1-w1RfGIov4&list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1)
