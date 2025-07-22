@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>d005</title>
+    <title>d008</title>
 
     <style>
 
@@ -73,40 +73,32 @@
 </head>
 <body>
 
-    <h1>Conversor de Medidas</h1>
+    <h1>Calcular Desconto</h1>
 
-    <input type="button" value="Converter" onclick="clicar()">
+    <input type="button" value="Desconto de 10%" onclick="clicar()">
 
-    <p>Clique no botão acima para iniciar.</p>
+    <p>Clique no botão acimar para iniciar</p>
 
     <h2 id="titulo"></h2>
     <div id="res"></div>
-    
-    <script>
 
-        function clicar() {
+    <script>
+        function clicar () {        
             let titulo = document.getElementById("titulo")
             let res = document.getElementById("res")
 
-            let metro = Number(prompt("Digite uma distância em metros (m)"))
+            let produto = prompt("Qual é o produto que você está comprando?")
+            let preco = Number(prompt(`Qual é o preço de ${produto}?`))
 
-            km = metro / 1000
-            hm = metro / 100
-            dam = metro / 10
-            dm = metro * 10
-            cm = metro * 100
-            mm = metro * 1000
+            porcento = preco/10
+            desconto = preco-porcento
 
-            titulo.innerHTML = `A distância de ${metro.toFixed(2)} metros, corresponde a...`
-            res.innerHTML = `${km.toFixed(2)} quilômetros (Km)<br>
-                            ${hm.toFixed(2)} hectômetros (Hm)<br>
-                            ${dam.toFixed(2)} decâmetros (Dam)<br>
-                            ${dm.toFixed(2)} decímetros (dm)<br>
-                            ${cm.toFixed(2)} centímetros (cm)<br>
-                            ${mm.toFixed(2)} milímetros (mm)`
+            titulo.innerHTML = `Calculando desconto de 10% para ${produto}`
+            res.innerHTML = `O preço original era ${preco.toLocaleString("pt-BR", { style: "currency", currency: "BRL" })}.<br>
+                             Você acaba de ganhar ${porcento.toLocaleString("pt-BR", { style: "currency", currency: "BRL" })} de desconto (-10%).<br>
+                             No fim, você vai pagar ${desconto.toLocaleString("pt-BR", { style: "currency", currency: "BRL" })} no produto ${produto}.` 
         }
-
     </script>
-
+    
 </body>
 </html>

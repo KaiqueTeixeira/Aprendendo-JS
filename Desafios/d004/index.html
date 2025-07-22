@@ -3,37 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>D004 - Gerador de Tabuada</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <title>d004</title>
+
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: rgb(75, 69, 134);
+            color: black;
+            font-family: Helvetica, sans-serif;
+            font-size: 25px;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            height: 100vh;
+            text-align: center;
+        }
+
+        h1 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 50pt;
+            color: rgb(143, 203, 255);
+        }
+
+        input {
+
+            height: 40px;
+            width: calc(200px);
+
+            border-radius: 8px;
+            border: none;
+
+            font-size: 16px;
+
+            margin-top: 30px;
+        }
+
+        input:hover {
+            cursor: pointer;
+            background-color: gray;
+        }
+
+    </style>
 
 </head>
 <body>
 
-    <header> 
-        <h1>Tabuada</h1>
-    </header>
+    <h1>Calculando o Troco</h1>
 
-    <section>
-        
-        <div>
-            <p id="ptxt">Digite um número: <input type="number" id="txtn" ></p>
-        </div>
+    <input type="button" value="Comprar Produto" onclick="clicar()">
+    
+    <script>
 
-        <div>
-            <p> <select name="Tubuada" id="seltab" size="10"></p> </select>
-        </div>
+        function clicar () {
+            let prod = prompt("Que produto você está comprando?")
+            let preco = Number(prompt(`Quanto custa ${prod} que você está comprando?`))
+            let quantia = Number(prompt(`Qual foi o valor que você deu para pagar o ${prod}?`))
 
-        <div id="dbutao">
-            <p> <input type="button" value="Gerar" id="butao" onclick="gerar()"> </p>
-        </div>
+            let troco = quantia - preco
 
-    </section>
+            alert(`Você comprou ${prod} que custou ${preco.toLocaleString("pt-BR", {style:"currency", currency:"BRL"})}. \nDeu ${quantia.toLocaleString("pt-BR", {style:"currency", currency:"BRL"})} em dinheiro e vai receber ${troco.toLocaleString("pt-BR", {style:"currency", currency:"BRL"})} de troco. \nVolte Sempre!`)
+        }
 
-    <footer>
-        <p>&copy;Kteixeira</p>
-    </footer>
+    </script>   
 
-    <script src="script.js"></script>
 </body>
 </html>

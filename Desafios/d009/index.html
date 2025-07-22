@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>d005</title>
+    <title>d009</title>
 
     <style>
 
@@ -73,40 +73,33 @@
 </head>
 <body>
 
-    <h1>Conversor de Medidas</h1>
+    <h1>Reajuste Salarial</h1>
 
-    <input type="button" value="Converter" onclick="clicar()">
-
-    <p>Clique no botão acima para iniciar.</p>
+    <input type="button" value="Reajustar Salário" onclick="clicar()">
 
     <h2 id="titulo"></h2>
     <div id="res"></div>
-    
+
     <script>
 
         function clicar() {
             let titulo = document.getElementById("titulo")
             let res = document.getElementById("res")
 
-            let metro = Number(prompt("Digite uma distância em metros (m)"))
+            let nome = prompt("Qual é o nome do funcionário?")
+            let salario = Number(prompt(`Qual é o salário de ${nome}?`))
+            let porcento = Number(prompt(`O salário ${nome} vai ser reajustado em qual porcentagem?`))
 
-            km = metro / 1000
-            hm = metro / 100
-            dam = metro / 10
-            dm = metro * 10
-            cm = metro * 100
-            mm = metro * 1000
+            aumento = (salario/100)*porcento
+            reajuste = salario + aumento
 
-            titulo.innerHTML = `A distância de ${metro.toFixed(2)} metros, corresponde a...`
-            res.innerHTML = `${km.toFixed(2)} quilômetros (Km)<br>
-                            ${hm.toFixed(2)} hectômetros (Hm)<br>
-                            ${dam.toFixed(2)} decâmetros (Dam)<br>
-                            ${dm.toFixed(2)} decímetros (dm)<br>
-                            ${cm.toFixed(2)} centímetros (cm)<br>
-                            ${mm.toFixed(2)} milímetros (mm)`
+            titulo.innerHTML = `${nome} recebeu um aumento salarial`
+            res.innerHTML = `O salário atual era ${salario.toLocaleString("pt-BR", { style: "currency", currency: "BRL" })}.<br>
+                             Com o aumento de ${porcento}%, o salário vai aumentar ${aumento.toLocaleString("pt-BR", { style: "currency", currency: "BRL" })} no próximo mês.<br>
+                             E a partir daí, ${nome} vai passar a ganhar ${reajuste.toLocaleString("pt-BR", { style: "currency", currency: "BRL" })}` 
         }
 
     </script>
-
+    
 </body>
 </html>

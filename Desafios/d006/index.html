@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>d005</title>
+    <title>d006</title>
 
     <style>
 
@@ -73,11 +73,11 @@
 </head>
 <body>
 
-    <h1>Conversor de Medidas</h1>
+    <h1>Conversor de Temperaturas</h1>
 
     <input type="button" value="Converter" onclick="clicar()">
 
-    <p>Clique no botão acima para iniciar.</p>
+    <p>Clique no botão acima para iniciar</p>
 
     <h2 id="titulo"></h2>
     <div id="res"></div>
@@ -88,22 +88,14 @@
             let titulo = document.getElementById("titulo")
             let res = document.getElementById("res")
 
-            let metro = Number(prompt("Digite uma distância em metros (m)"))
+            let celsius = Number(prompt("Digite uma temperatura em °C (Celsius)"))
 
-            km = metro / 1000
-            hm = metro / 100
-            dam = metro / 10
-            dm = metro * 10
-            cm = metro * 100
-            mm = metro * 1000
+            kelvin = celsius + 273  
+            faren = (celsius * 9/5) + 32
 
-            titulo.innerHTML = `A distância de ${metro.toFixed(2)} metros, corresponde a...`
-            res.innerHTML = `${km.toFixed(2)} quilômetros (Km)<br>
-                            ${hm.toFixed(2)} hectômetros (Hm)<br>
-                            ${dam.toFixed(2)} decâmetros (Dam)<br>
-                            ${dm.toFixed(2)} decímetros (dm)<br>
-                            ${cm.toFixed(2)} centímetros (cm)<br>
-                            ${mm.toFixed(2)} milímetros (mm)`
+            titulo.innerHTML = `A temperatura de ${celsius}°C, corresponde a...`
+            res.innerHTML = `${kelvin}°K (Kelvin)<br>
+                             ${faren}°F (Fahrenheit)`
         }
 
     </script>
