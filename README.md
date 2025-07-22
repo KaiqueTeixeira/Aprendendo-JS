@@ -12,7 +12,19 @@ Repositório criado para organizar os arquivos e exercícios relacionados ao cur
 
 ## 🎯 Desafios 
 
-* 
+* Desafio 1 - [Mensagem](https://kaiqueteixeira.github.io/Aprendendo-JS/Desafios/d001/)
+* Desafio 2 - [Boas-Vindas](https://kaiqueteixeira.github.io/Aprendendo-JS/Desafios/d002/)
+* Desafio 3 - [Antes e Depois](https://kaiqueteixeira.github.io/Aprendendo-JS/Desafios/d003/)
+* Desafio 4 - [Calculando o Troco](https://kaiqueteixeira.github.io/Aprendendo-JS/Desafios/d004/)
+* Desafio 5 - [Conversor de Medidas](https://kaiqueteixeira.github.io/Aprendendo-JS/Desafios/d005/)
+* Desafio 6 - [Conversor de Temperatura](https://kaiqueteixeira.github.io/Aprendendo-JS/Desafios/d006/)
+* Desafio 7 - [Conversor de Moedas](https://kaiqueteixeira.github.io/Aprendendo-JS/Desafios/d007/)
+* Desafio 8 - [Calculando Desconto](https://kaiqueteixeira.github.io/Aprendendo-JS/Desafios/d008/)
+* Desafio 9 - [Reajuste Salarial](https://kaiqueteixeira.github.io/Aprendendo-JS/Desafios/d009/)
+* Desafio 10 - [Resolvendo Bhaskara](https://kaiqueteixeira.github.io/Aprendendo-JS/Desafios/d010/)
+* Desafio 11 - [Ano Bissexto](https://kaiqueteixeira.github.io/Aprendendo-JS/Desafios/d011/)
+* Desafio 12 - [Preço Mudou](https://kaiqueteixeira.github.io/Aprendendo-JS/Desafios/d012/)
+* Desafio 13 - [Situação do Aluno](https://kaiqueteixeira.github.io/Aprendendo-JS/Desafios/d013/)
 
 ## 📚 Exercícios
 
